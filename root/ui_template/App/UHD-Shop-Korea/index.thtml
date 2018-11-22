@@ -1,0 +1,103 @@
+<!-- 0 -->
+<div class="ui vertical segments" style="width: 100%; height: 100%; overflow-y: none;">
+
+	<!-- 1 -->
+	<style>
+		.iframe_size_max {
+			width : 100%;
+			height : 100%;
+		}
+	</style>
+
+	<!-- 1 -->
+	<div class="ui horizontal segments" style="height: 50%;">
+		<div class="ui segment" style="height: 100%;">
+			<div class="ui form">
+				<div class="required field">
+					<label>Site URL</label>
+					<div class="ui action input">
+						<input id="ip0" class="input-site_url" style="width: 300px;" value="http://corners.gmarket.co.kr/SuperDeals">
+						<button class="btn-site_url ui primary button" onclick="javascript:window.document.getElementById('if0').src=window.document.getElementById('ip0').value;">이동</button>
+					</div>
+				</div>
+			</div>
+			<iframe id="if0" class="iframe_size_max" src="http://corners.gmarket.co.kr/SuperDeals">
+			</iframe>
+		</div>
+
+		<div class="ui segment" style="height: 100%;">
+			<div class="ui form">
+				<div class="required field">
+					<label>Site URL</label>
+					<div class="ui action input">
+						<input id="ip1" class="input-site_url" style="width: 300px;" value="http://corners.auction.co.kr/AllKill/AllDay.aspx">
+						<button class="btn-site_url ui primary button" onclick="javascript:window.document.getElementById('if1').src=window.document.getElementById('ip1').value;">이동</button>
+					</div>
+				</div>
+			</div>
+			<iframe id="if1" class="iframe_size_max" src="http://corners.auction.co.kr/AllKill/AllDay.aspx">
+			</iframe>
+		</div>
+
+		<div class="ui segment" style="height: 100%;">
+			<div class="ui form">
+				<div class="required field">
+					<label>Site URL</label>
+					<div class="ui action input">
+						<input id="ip2" class="input-site_url" style="width: 300px;" value="http://deal.11st.co.kr/html/nc/deal/main.html">
+						<button class="btn-site_url ui primary button" onclick="javascript:window.document.getElementById('if2').src=window.document.getElementById('ip2').value;">이동</button>
+					</div>
+				</div>
+			</div>
+			<iframe id="if2" class="iframe_size_max" src="http://deal.11st.co.kr/html/nc/deal/main.html">
+			</iframe>
+		</div>
+	</div>
+
+	<!-- 1 -->
+	<!-- -->
+	<div class="ui horizontal segments" style="height: 50%;">
+		<div class="ui segment" style="height: 100%;">
+			<div class="ui form">
+				<div class="required field">
+					<label>Site URL</label>
+					<div class="ui action input">
+						<input id="ip3" class="input-site_url" style="width: 300px;" value="http://www.wemakeprice.com/">
+						<button class="btn-site_url ui primary button" onclick="javascript:window.document.getElementById('if3').src=window.document.getElementById('ip3').value;">이동</button>
+					</div>
+				</div>
+			</div>
+			<iframe id="if3" class="iframe_size_max" src="http://www.wemakeprice.com/">
+			</iframe>
+		</div>
+
+		<div class="ui segment" style="height: 100%;">
+			<div class="ui form">
+				<div class="required field">
+					<label>Site URL</label>
+					<div class="ui action input">
+						<input id="ip4" class="input-site_url" style="width: 300px;" value="https://www.coupang.com/">
+						<button class="btn-site_url ui primary button" onclick="javascript:window.document.getElementById('if4').src=window.document.getElementById('ip4').value;">이동</button>
+					</div>
+				</div>
+			</div>
+			<iframe id="if4" class="iframe_size_max" src="https://www.coupang.com/">
+			</iframe>
+		</div>
+
+		<div class="ui segment" style="height: 100%;">
+			<div class="ui form">
+				<div class="required field">
+					<label>Site URL</label>
+					<div class="ui action input">
+						<input id="ip5" class="input-site_url" style="width: 300px;" value="http://www.ticketmonster.co.kr/planning/PLAN_DCXfbM9PDF">
+						<button class="btn-site_url ui primary button" onclick="javascript:window.document.getElementById('if5').src=window.document.getElementById('ip5').value;">이동</button>
+					</div>
+				</div>
+			</div>
+			<iframe id="if5" class="iframe_size_max" src="http://www.ticketmonster.co.kr/planning/PLAN_DCXfbM9PDF">
+			</iframe>
+		</div>
+	</div>
+
+</div>
